@@ -1,0 +1,47 @@
+/* Blank stylesheet */
+
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: darkblue;
+}
+
+h2 {
+    font-size: 32px;
+    color: slategray;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.profile-card {
+    background-color: white;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 50px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-card li {
+    margin: 10px 0;
+}
